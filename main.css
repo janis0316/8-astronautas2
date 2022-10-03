@@ -1,24 +1,53 @@
-header a {
+.body {
+    font-family: calibri;
+}
+.header {
+    margin-top: 50px;
+    width: 1500px;
+    margin-left: calc((100% - 1500px) / 2);
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+}
+.logo {
+    margin-left: 30px;
+}
+.main-menu {
+}
+.link-first {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 1100px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.link {
     text-decoration: none;
     color: black;
     font-size: 15px;
     margin-left: 30px;
     font-weight: bold;
-    
-   
     margin-top: 15px;
  } 
-p {
-    color: grey;
-    font-size: 25px;
-    margin-left: 30px;
-    margin-top: 40px;
-}
-h1 {
+ .main {
+    width: 1500px;
+    margin-left: calc((100% - 1500px) / 2);
+    display: inline-block;
+    font-size: 20px;
+ }
+ .div {
+    width: 40%;
+    float: left;
+    margin-top: 150px;
+ }
+.main-title {
     font-size: 105px;
     margin-left: 30px;
+    margin-top:0px;
+    margin-bottom: 0px;
 }
-hr {
+.line {
     height: 8px;
     background-color: purple;
     width: 180px;
@@ -26,7 +55,13 @@ hr {
     border: 0; 
     margin-left: 30px;
 }
-button {
+.description {
+    color: grey;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.button-one {
     background-color: purple; 
     border-color: purple;
     color: white;
@@ -34,31 +69,41 @@ button {
     height: 50px;
     width:180px;
     font-weight: bold;
+    margin-left: 30px;
 }
-div > a {
+.button-two {
+    background-color: white; 
+    border-color: purple;
+    color: purple;
+    border-radius: 50px;
+    height: 50px;
+    width:150px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.image {
+    width: 60%;
+    margin-top: 10px;
+    float: right;
+}    
+.footer {
+    width: 1500px;
+    margin-left: calc((100% - 1500px) / 2);
+}  
+.div-two {
+    float: left;
+    width: 80%;
+    margin-left: 30px;
+}
+.links-one {
     text-decoration: none;
 }
-header {
-    margin-top: 50px;
-   
-    width: 1500px;
-    margin-left: calc((100% - 1500px) / 2);
-
-    
-    font-size: 30px;
-    color:black;
-    font-weight: bold;
+.links {
+    margin-left: 30px;
 }
-main {
-    
-    width: 1500px;
-    margin-left: calc((100% - 1500px) / 2);
-    display: inline-block;
-    
-    font-size: 20px;
+.rights {
+    float: right;
+    width: 15%;
+    margin-bottom: 2.5%;
+    font-size: 15px;
 }
-footer {
-    
-    width: 1500px;
-    margin-left: calc((100% - 1500px) / 2);
-}   
