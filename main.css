@@ -69,16 +69,17 @@
     border: 2px solid purple;
 }
     .btn:hover {
-    background-color: aqua;
+    background-color: white;
+    color: purple;
 }
 
 .btn.btn-two {
-    background-color: green; 
+    background-color: white; 
     color: purple;
 }
 .btn.btn-two:hover {
-    background-color: white; 
-    color: purple;
+    background-color: purple; 
+    color: white;
 }
 
 .image {
@@ -95,6 +96,18 @@
 }
 .links {
     margin-right: 30px;
+    height: 2em;
+    width: 2em;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+.links:hover {
+    background-color: purple;
+    color: white;
+    border-radius: 50%;
+
 }
 .rights {
     float: right;
