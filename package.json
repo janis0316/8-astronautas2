@@ -14,5 +14,13 @@
   "license": "ISC",
   "devDependencies": {
     "dead-server": "^1.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janis0316/8-astronautas2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/janis0316/8-astronautas2/issues"
+  },
+  "homepage": "https://github.com/janis0316/8-astronautas2#readme"
 }
