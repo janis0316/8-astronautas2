@@ -22,6 +22,9 @@
     margin-left: 30px;
     margin-top: 7px;
  } 
+ .link:hover {
+    text-decoration: underline;
+ }
  .main {
     width: 1500px;
     margin-left: calc((100% - 1500px) / 2);
@@ -32,7 +35,7 @@
  .div {
     width: 40%;
     float: left;
-    margin-top: 150px;
+    margin-top: 100px;
  }
 .main-title {
     display: inline-block;
@@ -67,6 +70,7 @@
     text-transform: uppercase;
     border-radius: 50px;
     border: 2px solid purple;
+    margin-right: 10px;
 }
     .btn:hover {
     background-color: white;
@@ -95,13 +99,14 @@
     width: 80%;
 }
 .links {
-    margin-right: 30px;
+    margin-right: 20px;
     height: 2em;
     width: 2em;
     float: left;
     text-align: center;
     font-size: 20px;
     line-height: 2em;
+    color: #ccc;
 }
 .links:hover {
     background-color: purple;
@@ -113,5 +118,6 @@
     float: right;
     width: 20%;
     font-size: 15px;
+    text-align: right;
 
 }
