@@ -27,6 +27,7 @@
     margin-left: calc((100% - 1500px) / 2);
     display: inline-block;
     font-size: 20px;
+    margin-top: 40px;
  }
  .div {
     width: 40%;
@@ -34,6 +35,8 @@
     margin-top: 150px;
  }
 .main-title {
+    display: inline-block;
+    width: 100%;
     font-size: 80px;
     margin-bottom: 0px;
 }
@@ -46,13 +49,15 @@
 }
 .description {
     display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
     color: grey;
-    font-size: 25px;
-  
+    font-size: 25px; 
 }
+
 .btn {
     display: inline-block;
-    padding: 1em;
+    padding: 0.8em;
     padding-left: 2em;
     padding-right: 2em;
     background-color: purple; 
@@ -61,13 +66,21 @@
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 50px;
+    border: 2px solid purple;
 }
+    .btn:hover {
+    background-color: aqua;
+}
+
 .btn.btn-two {
+    background-color: green; 
+    color: purple;
+}
+.btn.btn-two:hover {
     background-color: white; 
     color: purple;
-    border-width: 3px;
-
 }
+
 .image {
     float: right;
     width: 60%;
@@ -87,4 +100,5 @@
     float: right;
     width: 20%;
     font-size: 15px;
+
 }
